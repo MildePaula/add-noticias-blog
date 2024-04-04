@@ -17,10 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from noticia.views import listarNoticias, adicionarNoticia
-
+from comentarios.views import adicionar_comentario
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', listarNoticias, name= 'listarNoticias'),
     path('adicionarNoticia/', adicionarNoticia, name='adicionarNoticia'),
+    path('adicionar_comentario/', adicionar_comentario, name='adicionar_comentario'),
 ]
