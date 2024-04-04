@@ -1,7 +1,10 @@
-<!-- templates/comentarios/adicionar_comentario.html -->
+<!-- criar a pasta templates\comentarios-->
+<!-- criar arquivo adicionar_comentario.html-->
+<!-- copiar o código abaixo -->
 <h2>Adicionar Comentário</h2>
 <form method="post">
     {% csrf_token %}
     {{ form.as_p }}
     <button type="submit">Adicionar Comentário</button>
 </form>
+

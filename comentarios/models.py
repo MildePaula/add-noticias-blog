@@ -1,4 +1,5 @@
-# comentarios/models.py
+# ADICIONAR O CÓDIGO ABAIXO NO MODELS:
+
 from django.db import models
 from django.contrib.auth.models import User
 

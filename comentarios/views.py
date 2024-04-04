@@ -1,4 +1,4 @@
-# comentarios/views.py
+# ADICIONAR O CÓDIGO NA views.py
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from .forms import ComentarioForm
